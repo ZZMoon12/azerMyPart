@@ -13,3 +13,14 @@
 | **Owen Warnack** | warnacko@oregonstate.edu | Game Design, Programmer |
 | **William Chinn** | chinnw@oregonstate.edu | Game Design, Programmer |
 | **Wenhan Zhao** | zhaowenh@oregonstate.edu | Game Design, Programmer |
+
+---
+
+## Branching & Reviews
+**Flow:** `feature/*` → Pull Request → ≥1 review → merge into `main`.
+
+- Default branch: **main**
+- Branch protection: PR required, ≥1 approval, pass CI, resolve conversations, linear history
+- PR template: `.github/PULL_REQUEST_TEMPLATE.md`
+- Code owners: `.github/CODEOWNERS`
+- We follow local `CONTRIBUTING.md`
