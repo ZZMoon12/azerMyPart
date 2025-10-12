@@ -1,6 +1,8 @@
-# osugamedev73
-Placeholder description. Team CS073 Game Dev 2. Adjust later.
-Team members: 
+# Azer: The Path of Salvation
+
+Azer: The Path of Salvation is a dark fantasy action-adventure RPG where a cursed young man battles monsters, harnesses his inner darkness, and seeks a cure before it consumes his humanity.
+
+Team members:
 - Yigit Onuk
 - Nassir Pedraza
 - Owen Warnack
