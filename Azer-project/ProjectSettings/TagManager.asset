@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Damage
+  - ManaSprite
+  - HealthSprite
+  - coin
   layers:
   - Default
   - TransparentFX
@@ -14,8 +17,8 @@ TagManager:
   - UI
   - Ground
   - Enemy
-  - 
-  - 
+  - Background
+  - Player
   - 
   - 
   - 
@@ -41,6 +44,27 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 1sky
+    uniqueID: 623845071
+    locked: 0
+  - name: 2cloud
+    uniqueID: 3299973079
+    locked: 0
+  - name: 3fore
+    uniqueID: 2039380489
+    locked: 0
+  - name: player
+    uniqueID: 1223840877
+    locked: 0
+  - name: 4back
+    uniqueID: 1810215365
+    locked: 0
+  - name: 
+    uniqueID: 1918965537
+    locked: 0
+  - name: 
+    uniqueID: 2256975787
     locked: 0
   m_RenderingLayers:
   - Default
