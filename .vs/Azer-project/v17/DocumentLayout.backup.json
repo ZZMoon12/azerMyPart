@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\playersavebridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|c:\\users\\yigit\\unity projects\\azer-main\\azer-project\\assets\\settings\\scripts\\playersavebridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\playersavebridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|c:\\users\\yigit\\unity projects\\azer-main\\azer-project\\assets\\settings\\scripts\\azerplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\respawnstate.js.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\respawnstate.js.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\azerplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\azerplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\respawnhotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\respawnhotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\respawnstate.js.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\respawnstate.js.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|solutionrelative:assets\\settings\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14CAACF4-C525-6E50-39B7-C21D8821C06F}|Assembly-CSharp.csproj|C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\assets\\settings\\scripts\\infotrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,26 +48,27 @@
               "RelativeDocumentMoniker": "Assets\\Settings\\Scripts\\PlayerSaveBridge.cs",
               "ToolTip": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\PlayerSaveBridge.cs",
               "RelativeToolTip": "Assets\\Settings\\Scripts\\PlayerSaveBridge.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowEUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T03:37:42.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "RespawnState.js.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\RespawnState.js.cs",
               "RelativeDocumentMoniker": "Assets\\Settings\\Scripts\\RespawnState.js.cs",
               "ToolTip": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\RespawnState.js.cs",
               "RelativeToolTip": "Assets\\Settings\\Scripts\\RespawnState.js.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T03:35:29.304Z"
+              "WhenOpened": "2025-11-05T03:35:29.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "RespawnHotkey.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\RespawnHotkey.cs",
               "RelativeDocumentMoniker": "Assets\\Settings\\Scripts\\RespawnHotkey.cs",
@@ -75,23 +76,25 @@
               "RelativeToolTip": "Assets\\Settings\\Scripts\\RespawnHotkey.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T03:29:56.736Z"
+              "WhenOpened": "2025-11-05T03:29:56.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Settings\\Scripts\\SaveManager.cs",
               "ToolTip": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\SaveManager.cs",
               "RelativeToolTip": "Assets\\Settings\\Scripts\\SaveManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:55:20.332Z"
+              "WhenOpened": "2025-11-05T02:55:20.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\SaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Settings\\Scripts\\SaveData.cs",
@@ -103,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "azerPlayer.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\azerPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Settings\\Scripts\\azerPlayer.cs",
               "ToolTip": "C:\\Users\\yigit\\Unity Projects\\Azer-main\\Azer-project\\Assets\\Settings\\Scripts\\azerPlayer.cs",
               "RelativeToolTip": "Assets\\Settings\\Scripts\\azerPlayer.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowHwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T02:48:33.85Z",
               "EditorCaption": ""
