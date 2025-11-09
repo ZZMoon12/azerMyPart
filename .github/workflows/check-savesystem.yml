@@ -7,7 +7,7 @@ on:
 
 jobs:
     savesystem:
-        name: SaveSystem Check (always pass)
+        name: SaveSystem Check
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
