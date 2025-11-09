@@ -16,41 +16,47 @@ jobs:
                   set -euo pipefail
                   err=0
 
-                  # 1) Required root folders
-                  for d in Assets Packages ProjectSettings; do
+                  # --- 1) Require a Unity project at repo root ---
+                  for d in Assets ProjectSettings; do
                     if [[ ! -d "$d" ]]; then
                       echo "::error::Missing '$d/' at repo root."
                       err=1
                     fi
                   done
 
-                  # 2) Disallow nested Unity projects (extra Assets/ or ProjectSettings/)
-                  while IFS= read -r p; do
-                    # normalize path w/out leading ./ 
-                    p="${p#./}"
-                    if [[ "$p" != "Assets" ]]; then
-                      echo "::error::Nested Unity project detected at '$p' (remove or move contents to repo root)."
+                  # --- 2) Forbid additional Unity project roots anywhere else ---
+                  # A "project root" is a directory that contains BOTH Assets/ and ProjectSettings/
+                  # (Packages/ is optional, some older projects may lack it.)
+                  while IFS= read -r projroot; do
+                    # normalize path
+                    projroot="${projroot#./}"
+                    # Ignore the real root of the repo
+                    if [[ "$projroot" != "." ]]; then
+                      echo "::error::Nested Unity project detected at '$projroot' (contains Assets/ and ProjectSettings/). Remove or move its contents to the repo root."
                       err=1
                     fi
-                  done < <(find . -type d -name Assets | sort)
+                  done < <(
+                    # Find any directory that has BOTH children: Assets and ProjectSettings
+                    # Print its parent as a candidate "project root"
+                    find . -type d -name ProjectSettings -print0 \
+                    | xargs -0 -I{} dirname {} \
+                    | while read -r parent; do
+                        if [[ -d "$parent/Assets" && -d "$parent/ProjectSettings" ]]; then
+                          echo "$parent"
+                        fi
+                      done \
+                    | sort -u
+                  )
 
-                  while IFS= read -r p; do
-                    p="${p#./}"
-                    if [[ "$p" != "ProjectSettings" ]]; then
-                      echo "::error::Nested Unity project detected at '$p' (remove or move contents to repo root)."
-                      err=1
-                    fi
-                  done < <(find . -type d -name ProjectSettings | sort)
-
-                  # 3) Reject cache/build dirs in Git
-                  for d in Library Temp Obj Obj/ Debug Release Builds Build Logs; do
+                  # --- 3) Reject cache/build folders if they somehow got committed ---
+                  for d in Library Temp Obj obj Debug Release Builds Build Logs; do
                     if [[ -e "$d" ]]; then
-                      echo "::error::'$d/' must not be committed. Delete it and update .gitignore."
+                      echo "::error::'$d/' must not be committed. Delete it and ensure .gitignore ignores it."
                       err=1
                     fi
                   done
 
-                  # 4) Optional: ensure .gitattributes exists (LFS rules)
+                  # --- 4) Warn (don’t fail) if .gitattributes missing ---
                   if [[ ! -f ".gitattributes" ]]; then
                     echo "::warning::.gitattributes missing. Add Git LFS patterns for Unity binaries."
                   fi
