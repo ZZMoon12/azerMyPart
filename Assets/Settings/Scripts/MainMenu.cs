@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        // ⚠️ 把 "GameScene" 改成你主游戏场景的名字
+        // ⚠️ change "GameScene" to the target game scence
         SceneManager.LoadScene("GameScene");
     }
 
@@ -28,4 +28,5 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 }
+
 
