@@ -10,8 +10,7 @@ public class NextLevel : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Load by name
-            SceneManager.LoadScene(nextLevelName);
-            
+            SceneController.instance.NextLevel();            
             // OR load by build index (uncomment one):
             // int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             // SceneManager.LoadScene(currentSceneIndex + 1);
