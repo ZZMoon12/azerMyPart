@@ -1727,7 +1727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4b37490dbb7444b9eb28a9118405b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NextLevel
-  nextLevelName: Level2
+  targetSceneName: Level2
+  exitID: 
 --- !u!1 &203923229
 GameObject:
   m_ObjectHideFlags: 0
