@@ -4,28 +4,52 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [Header("Panels")]
-    public GameObject settingsPanel;
+    public GameObject optionOverlay;
+    public GameObject audioPage;
+    public GameObject otherPage;
 
+    // ========= 主菜单按钮 =========
     public void StartGame()
     {
-        // ⚠️ 把 "GameScene" 改成你主游戏场景的名字
         SceneManager.LoadScene("GameScene");
     }
 
     public void OpenSettings()
     {
-        settingsPanel.SetActive(true);
+        optionOverlay.SetActive(true);
+
+        // 默认打开 Audio 页
+        ShowAudioPage();
     }
 
     public void CloseSettings()
     {
-        settingsPanel.SetActive(false);
+        optionOverlay.SetActive(false);
     }
 
-    public void QuitGame()
+    public void ExitGame()
     {
-        Debug.Log("Quit Game");
-        Application.Quit();
+        Debug.Log("Exit button pressed");
+
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                Application.Quit();
+        #endif
+    }
+
+    // ========= Option 内 Tab 切换 =========
+    public void ShowAudioPage()
+    {
+        audioPage.SetActive(true);
+        otherPage.SetActive(false);
+    }
+
+    public void ShowOtherPage()
+    {
+        audioPage.SetActive(false);
+        otherPage.SetActive(true);
     }
 }
+
 
